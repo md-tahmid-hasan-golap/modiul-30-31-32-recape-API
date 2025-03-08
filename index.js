@@ -245,3 +245,155 @@
 // * Object.freeze;
 // * Object.entries
 
+
+// modiul -- 31 recape start now
+
+// acces value and nested value
+
+
+// const bioData = {
+//     name : "Golap",
+//     id: 11,
+//     1 : "100",
+//     friends : ["basar", "Imrul", "Masum"],
+//     status : "Not Found",
+
+//     bioData2 :{
+//          name : "Tahmid",
+//          age : 21,
+//          isMarrid : false
+//     }
+// } 
+// bioData.bioData2.name = "RAj"
+// console.log(bioData.bioData2.isMarrid);
+// console.log(bioData.bioData2.name);
+// console.log(bioData["1"]);
+
+// error thake bachte
+
+// console.log(bioData.bioData2.mother?.name)
+
+
+// Array sum no for loop 1 line code used map
+
+// const numbers = [10, 20, 30, 40, 50, 60];
+// let sum = 0;
+
+// for(let i = 0; i < numbers.length; i ++){
+//     const item = numbers[i];
+//     sum = sum + item;
+//     // console.log(sum)
+    
+// }
+// console.log(sum)
+
+// const numbers = [11, 21, 30, 40, 50, 60];
+
+
+// let temp = [];
+// for (let i = 0; i < numbers.length; i++){
+//     const item = numbers[i];
+//    const sum = item + 1;
+//    temp.push(sum)
+
+// }
+
+// console.log(temp)
+
+
+// Array function map
+
+// const number = numbers.map (num => {
+//     return num + 1
+// });
+// console.log(number)
+
+// let sum = 0;
+
+// for(let i = 0; i < numbers.length; i ++){
+//     const item = numbers[i];
+//     if(item % 2 === 0){
+//         sum = sum + item;
+//     }
+   
+//     // console.log(sum)
+    
+// }
+// console.log(sum)
+// console.log(numbers)
+// for(let num of numbers){
+//     console.log(num)
+// }
+
+
+
+
+// forEach, filter, find 
+
+
+
+// const products = [
+
+//     {id : 1, Name : "iphone", color : "white", price : 14000, Brand : "iphone"},
+//     {id : 2, Name : "xoime", color : "black", price : 42000, Brand : "xoime"},
+//     {id : 3, Name : "samsung", color : "black", price : 112000, Brand : "samsung"},
+//     {id : 4, Name : "redmi", color : "blue", price : 112000, Brand : "redmi"},
+//     {id : 5, Name : "vivo", color : "yellow", price : 1000, Brand : "vivo"},
+//     {id : 6, Name : "mi", color : "aqua", price : 2000, Brand : "mi"},
+//     {id : 7, Name : "realmi", color : "vilioed", price : 11100, Brand : "redmi"},
+// ]
+
+
+
+// const product = products.find (p => {
+//     if(p.id === 3){
+       
+//     }
+//     return p
+// })
+//  console.log(product)
+// products.forEach(p => console.log(p))
+
+// products.forEach(p => {
+//     if(p.color === "black")
+//         console.log(p)
+// })
+
+// const product = products.map (p =>{
+//     if(p.color === "black"){
+//         p.price = p.price + 100;
+        
+//     }
+//     return p
+// })
+// console.log(product)
+// ei bar filter j ta 1 ta Array return kore upor thake j gula milbe se gula k ekta Array te dekhabe
+
+// const product = products.filter (p => {
+//     if(p.color === "black"){
+//         return p
+//     }
+// })
+
+// console.log(product);
+// console.log(product.length)
+
+// find j ta upor tahke milate suro kore 1 ta mille return kore ekta array
+
+// const product = products.find (p => {
+//     if(p.color === "black"){
+//         return p
+//     }
+// })
+
+// console.log(product)
+// foreach j ta kichu return kore nha 
+
+// products.forEach(p => console.log(p))
+
+// console.log(products)
+
+// for (let product of products){
+//     console.log(product)
+// }
+
