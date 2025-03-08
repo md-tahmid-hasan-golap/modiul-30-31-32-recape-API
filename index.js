@@ -397,3 +397,14 @@
 //     console.log(product)
 // }
 
+
+
+
+
+// classs & Object diclaration
+
+// class diclaration 
+
+class product {
+    
+}
