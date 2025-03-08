@@ -86,3 +86,42 @@
 // console.log(friends)
 // const newArray = ["Basar", "imrul", ...friends];
 // console.log(newArray)
+
+
+
+// Advance Object And Array distictCharing
+
+// let bioData = {
+//     name : "Golap",
+//     id: 11,
+//     1 : "100",
+//     friends : ["basar", "Imrul", "Masum"],
+//     status : "Not Found"
+// }
+
+
+// const {name, id, friends, status} = bioData;
+// console.log(name);
+// console.log(id)
+// console.log(bioData.name) 
+// console.log(bioData.id)
+// console.log(bioData.friends)
+// console.log(bioData.friends[0])
+// console.log(bioData.status)
+// console.log(bioData[1])
+
+// console.log(bioData);
+
+// for(let bio in bioData){
+//     console.log(bio)
+// }
+
+
+// Advance  Array distictCharing
+
+const numbers = [10, 30, 44, 21, 33];
+
+const [first, secend, third, fourth, five]= numbers;
+console.log(first)
+console.log(secend)
+console.log(third)
