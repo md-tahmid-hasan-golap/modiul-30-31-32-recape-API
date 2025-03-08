@@ -406,5 +406,29 @@
 // class diclaration 
 
 class product {
-    
+    malik = "Golap"
+    constructor(name, price, brand, malik){
+        // console.log(name,price, brand)
+        this.name = name;
+        this.price = price;
+        this.brandName = brand;
+        this.malik= malik;
+    }
+
+    details (){
+        // console.log("Ami details", this.name)
+        console.log(`Ami ${this.name} product er details`)
+    }
 }
+
+const iphone = new product ("iPhone", "1200", "Apple", "stive Jobs");
+console.log(iphone)
+iphone.details()
+// console.log(iphone)
+// console.log(iphone.details())
+
+
+// same vabe r ekta o copy kora jai
+
+// const  redmi = new product("redmi", "1000", "redmi", "golap")
+// console.log(redmi)
