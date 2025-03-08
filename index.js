@@ -119,9 +119,129 @@
 
 // Advance  Array distictCharing
 
-const numbers = [10, 30, 44, 21, 33];
+// const numbers = [10, 30, 44, 21, 33];
 
-const [first, secend, third, fourth, five]= numbers;
-console.log(first)
-console.log(secend)
-console.log(third)
+// const [first, secend, third, fourth, five]= numbers;
+// console.log(first)
+// console.log(secend)
+// console.log(third)
+
+
+// Object key, value, feez, seal, delete
+
+// const bioData = {
+//         name : "Golap",
+//         id: 11,
+//         1 : "100",
+//         friends : ["basar", "Imrul", "Masum"],
+//         status : "Not Found"
+//     } 
+//     Object.seal(bioData)
+
+//      bioData.name = "tahmid"
+//     console.log(bioData)
+
+
+     
+
+    // console.log(Object.entries(bioData))
+    // delete bioData.name
+    // console.log(bioData)
+    // console.log(Object.keys(bioData));
+    // console.log(Object.values(bioData))
+
+    // const key = Object.keys(bioData);
+    // console.log(key)
+
+    // const value = Object.values(bioData);
+    // console.log(value)
+
+
+    // const bioData = {
+    //     name : "Golap",
+    //     id: 11,
+    //     1 : "100",
+    //     friends : ["basar", "Imrul", "Masum"],
+    //     status : "Not Found"
+    // } 
+    // console.log(bioData);
+
+    // // amra k Object er upoe a for in chalate hobe
+
+    // for(let bio in bioData){
+    //     console.log(bio)
+    // }
+
+    // amra Object er upor for of chalate parbo nha
+
+    // for(let bio of bioData){
+    //     console.log(bio)
+    // }
+
+
+
+
+//     const bioData = {
+//         name : "Golap",
+//         id: 11,
+//         1 : "100",
+//         friends : ["basar", "Imrul", "Masum"],
+//         status : "Not Found"
+//     } 
+//    for(let key in bioData){
+//     console.log(`key : ${key} value : ${bioData [key]}`  )
+//    }
+
+
+
+// prestice task modiul --- 30
+
+// ai module summary recape
+
+// 1 : prothome amra j ta shikachi se ta holo amra r kokhon var a used korbo nha
+
+
+// 2 : er pore amra jodi kokhon konu man change korte hoi ta hole let diye diclar korbo
+
+// 3 : er pore jodi kunu man j ta kokhono change hobe nha taile amra seta const diye diclar korbo
+
+// 4 : er pore amra multiple line a code kora shikchi j take bola hoi (tamplate String `  `)
+
+// 5 : er pore kunu function a jodi amra paramitar er thake man kom di ta hole sum er somoy num = 0 & gun er somoy num = 1 dile error asbe nha
+
+// 6 : tar pore amra shikchi dui ta array mile ekta notun array make kora (...numners)
+
+// 7 : tar pore shikchi Object k eccess kore  
+// 
+//  const bioData = {
+//     name : "Golap",
+//     id: 11,
+//     1 : "100",
+//     friends : ["basar", "Imrul", "Masum"],
+//     status : "Not Found"
+// } 
+// console.log(bioData);
+
+// const {name, id, friends, status} = bioData
+// console.log(name, id, friends, status)
+
+// 8 : tar pore shikchi Array k eccess kore  
+
+// const Number = [10, 33, 55, 33, 3332];
+// const [first, secend, third] = Number
+// console.log(first, secend, third)
+
+// 9 : er pore shikchi arrow function
+
+// const add = (num1, num2) => {
+//     return num1 + num2
+// }
+
+// 10: er pore shikchi
+
+// * Object.keys;
+// * Object.values;
+// * Object.seal;
+// * Object.freeze;
+// * Object.entries
+
