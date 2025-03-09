@@ -402,8 +402,9 @@
 
 
 // classs & Object diclaration
-
 // class diclaration 
+
+
 
 class product {
     malik = "Golap"
